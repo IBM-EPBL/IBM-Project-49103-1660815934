@@ -1,0 +1,285 @@
+body{
+	background: #fefefe;
+	color: #55476b;
+}
+
+#dca_app{
+	padding: 40px 10px 15px;
+}
+
+#dca_app > section:not(#dca_header_bar){
+	padding: 0px 15px 0;
+}
+
+/* Start of DCA Header Bar */
+
+#dca_header_bar img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #fcb0d4;
+	border: 4px solid #8b83d0;
+}
+
+#dca_header_bar:before{
+	position: absolute;
+	display: block;
+	content: '';
+	height: 90px;
+	width: 50px;
+	background: #8b83d0;
+	right: 15px;
+	top: -40px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#dca_header_bar i{
+	line-height: 50px;
+	font-size: 20px;
+}
+
+/* End of DCA Header Bar */
+
+/* Start of DCA Date Bar */
+
+#dca_date_bar ul{
+	padding: 0;
+}
+
+#dca_date_bar ul li{
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: calc(100%/7);
+	padding-top: 20px;
+}
+
+#dca_date_bar ul li span{
+	display: block;
+}
+
+#dca_date_bar ul li span.day{
+    font-size: 12px;
+	letter-spacing: 0.5px;
+	margin-bottom: 2px;
+}
+
+#dca_date_bar ul li .date{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+#dca_date_bar .active{
+	background: #fcb0d4;
+	height: 80px;
+	width: 40px;
+	border-radius: 20px;
+	padding-top: 20px;
+	box-shadow: 2px 2px 8px -1px rgba(225,128,192,0.6);
+}
+
+#dca_date_bar .active .day{
+	color: #fff;
+}
+
+#dca_date_bar .active .date{
+	background: #fefefe;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+/* End of DCA Date Bar */
+
+/* Start of DCA Plan Tab */
+
+#dca_plan_tab .heading{
+	margin-bottom: 15px;
+}
+
+#dca_plan_tab .heading span{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+#dca_plan_tab .heading i{
+	font-size: 15px;
+	line-height: 40px;
+}
+
+#dca_plan_tab .content{
+	margin-bottom: 15px;
+	height: 50px;
+}
+
+#dca_plan_tab .content i{
+	position: absolute;
+	background: #dff1fb;
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	bottom: 5px;
+}
+
+#dca_plan_tab .c1 i{
+	background: #dff1fb;
+	color: #1ca3ec;
+	box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.15);
+}
+
+#dca_plan_tab .c2 i{
+	background: #feeed5;
+	color: #8db600;
+	box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.15);
+}
+
+#dca_plan_tab .c3 i{
+	background: #ffe7dc;
+	/*background: #fbd3c0;*/
+	color: #CF5300;
+	box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.15);
+}
+
+#dca_plan_tab .c4 i{
+	background: #fcb0d4;
+	box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.15);
+}
+
+#dca_plan_tab .content span{
+	display: block;
+}
+
+#dca_plan_tab .content div.col-8 span:first-child{
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+#dca_plan_tab .content div.col-8 span:last-child{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(85,71,107,0.6);
+	letter-spacing: 0.5px;
+}
+
+#dca_plan_tab span.circle{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 5px solid #dff1fb;
+	border-left-color: rgba(0,0,255,0.3);
+	bottom: 5px;
+}
+
+#dca_plan_tab .c1 span.circle{
+	border: 4px solid #a5d9e4;
+	border-left-color: #dff1fb;
+	transform: rotate(95deg);
+}
+
+#dca_plan_tab .c2 span.circle{
+	border: 4px solid #f9d090;
+	border-left-color: #feeed5;
+	transform: rotate(150deg);
+}
+
+#dca_plan_tab .c3 span.circle{
+	border: 4px solid #ecc29c;
+	border-left-color: #ffe7dc;
+	transform: rotate(40deg);
+}
+
+#dca_plan_tab .c4 span.circle{
+	border: 4px solid #edb1cd;
+	border-left-color: #ffe9de;
+	border-top-color: #ffe9de;
+	transform: rotate(2deg);
+}
+
+/* End of DCA Plan Tab */
+
+/* Start of DCA Activity Tab */
+
+#dca_activity_tab .heading{
+	margin-bottom: 15px;
+}
+
+#dca_activity_tab .heading span{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+#dca_activity_tab .heading i{
+	font-size: 15px;
+	line-height: 40px;
+}
+
+#dca_activity_tab img{
+	height: 150px;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.activities span{
+	position: absolute;
+	font-size: 11px;
+	background: white;
+	padding: 1px 7px;
+	border-radius: 5px;
+	color: #000;
+	z-index: 1;
+}
+
+.run img{
+	background: #a5d9e4;
+	height: 180px !important;
+}
+
+.run span{
+	right: 20px;
+	bottom: 105px;
+}
+
+.yoga img{
+	height: 80px !important;
+	background: #ecc29c;
+	border-radius: 8px !important;
+}
+
+.yoga span{
+	right: 19px;
+	top: 4px;
+}
+
+.stretch img{
+	margin-top: 20px;
+	height: 80px !important;
+	background: #ecc29c;
+	border-radius: 8px !important;
+}
+
+.stretch span{
+	right: 20px;
+	bottom: 57px;
+}
+
+.squat img{
+	background: #fcb0d4;
+	height: 180px !important;
+	margin-top: 20px;
+}
+
+.squat span{
+	left: 20px;
+	bottom: 4px;
+}
+
+/* End of DCA Activity Tab */

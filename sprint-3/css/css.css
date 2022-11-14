@@ -1,0 +1,89 @@
+.image {
+    width: 750px;
+    float: right;
+    margin: 75px;
+  }
+  body {
+    font-size: small;
+    line-height: 1.4;
+    background-image: url(https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2018/11/shutterstock_723278326-1200x882.jpg);
+  }
+  p {
+    margin: 0;
+  }
+  
+  .performance-facts {
+    border: 1px solid black;
+    margin: 20px;
+    float: left;
+    width: 280px;
+    padding: 0.5rem;
+    }
+    tables {
+      border-collapse: collapse;
+    }
+
+  .performance-facts__title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 0 0.25rem 0;
+  }
+  .performance-facts__header {
+    border-bottom: 10px solid black;
+    padding: 0 0 0.25rem 0;
+    margin: 0 0 0.5rem 0;
+ }
+    p {
+      margin: 0;
+    }
+  
+  .performance-facts__table {
+    width: 100%;
+}
+   
+      td {
+        border: 0; 
+    
+      font-weight: normal;
+      text-align: left;
+      padding: 0.25rem 0;
+      border-top: 1px solid black;
+      white-space: nowrap;
+    }
+    
+    .blank-cell {
+      width: 1rem;
+      border-top: 0;
+    }
+   
+  
+  .small-info {
+    font-size: 0.7rem;
+  }
+  
+  .performance-facts__table--small {
+    border-bottom: 1px solid #999;
+    margin: 0 0 0.5rem 0;
+    }
+  
+  .performance-facts__table--grid {
+    margin: 0 0 0.5rem 0;
+   
+          content: "•";
+          font-weight: bold;
+          margin: 0 0.25rem 0 0;
+        }
+      
+    
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  .thick-end {
+    border-bottom: 10px solid black;
+  }
+  .thin-end {
+    border-bottom: 1px solid black;
+  }
+  
